@@ -1,0 +1,15 @@
+div.logo
+{
+    content:url(/assets/images/Logo.png);
+    /* content:url(http://www.somneang.ca/highfives/assets/images.Logo.png); */
+}
+
+img
+{
+    max-width: 30%;
+}
+
+.container
+{
+    background-color: rgba(131, 15, 15, 0.829);
+}
