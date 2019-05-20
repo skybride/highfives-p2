@@ -1,0 +1,37 @@
+h2
+{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+p
+{
+    color: lightgray;
+    text-align: center;
+}
+
+footer
+{
+    color: snow;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 6%;
+}
+
+i
+{
+    margin: 5%;
+    cursor: pointer;
+}
+
+.social
+{
+    text-align: center;
+    color: snow;
+    font-size: 250%;
+}
+
+i:hover
+{
+    color: black;
+}

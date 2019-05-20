@@ -1,0 +1,43 @@
+.container-fluid
+{
+    background-color: rgba(131, 15, 15, 0.829); 
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container
+{
+    background-color: rgb(51, 46, 46);
+    padding-top: 4%;
+}
+
+.draft
+{
+    content:url(/assets/images/draft.jpg);
+    /* content:url(http://www.somneang.ca/highfives/assets/images.Logo.png); */
+    max-width: 100%;
+    margin-top: -4%;
+}
+
+.imgBoard
+{
+    content:url(/assets/images/chalkboard.jpg);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ngb-alert
+{
+    margin-top: 2.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}

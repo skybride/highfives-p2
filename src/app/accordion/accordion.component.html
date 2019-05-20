@@ -1,0 +1,67 @@
+<ngb-accordion #acc="ngbAccordion" activeIds="config">
+  <ngb-panel>
+    <ng-template ngbPanelTitle class="card-header">
+      <span>&#9733;<strong> Daily Specials &#9733;</strong></span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <div class="image"></div>
+      <p>
+        <ngb-alert [dismissible]="false">
+          <strong>Monday:</strong><br>16oz Domestic Draught $4.50
+          (Canadian, Coors Light & High Fives Brew)
+          Wings $8.00 per lbs
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Tuesday:</strong><br>Bar Rail $4.50
+          Burgers 25% off
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Wednesday:</strong><br>Domestic Bottles $4.50
+          Pizza 25%
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Thursday:</strong><br>16oz Premium Draught $5.50
+          6oz House Wine $5.50
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Friday:</strong><br>20oz Canadian, Coors Light & High Fives Brew $5.50
+          Canadian, Coors Light King Cans $5.50
+          9oz House Wine $7.50
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Saturday:</strong><br>6oz House Wine, Shooters, 20oz
+          Canadian, Coors Light & High Fives Brew
+          & Bud $5.50
+        </ngb-alert>
+        <ngb-alert [dismissible]="false">
+          <strong>Sunday:</strong><br>Caesars & Tallboys $5.50,<br> Cheese Nachos $10
+        </ngb-alert>        
+      </p>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span><strong>Food Menu</strong></span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <div class="image2"></div>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span><strong>Drinks Menu</strong></span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <div class="image3"></div>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span><strong>Catering</strong></span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      <!-- <div class="image4"></div> -->
+      High Fives also provides catering services and with being attached to the Best Western Hotel, are able to access the use of conference or banquet facilities for larger groups and special events. Please contact us for more details and come check us out!
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>

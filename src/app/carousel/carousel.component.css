@@ -1,0 +1,25 @@
+ngb-carousel
+{
+    margin-top: -1%;
+}
+
+.imgSlide1
+{
+    content:url(/assets/images/Bar1.jpg);
+    /* content:url(http://www.somneang.ca/highfives/assets/images.Logo.png); */
+    max-width: 100%;
+}
+
+.imgSlide2
+{
+    content:url(/assets/images/Bar2.jpg);
+    /* content:url(http://www.somneang.ca/highfives/assets/images.Logo.png); */
+    max-width: 100%;
+}
+
+.imgSlide3
+{
+    content:url(/assets/images/Dining1.jpg);
+    /* content:url(http://www.somneang.ca/highfives/assets/images.Logo.png); */
+    max-width: 100%;
+}
